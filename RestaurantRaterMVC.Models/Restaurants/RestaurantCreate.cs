@@ -10,4 +10,5 @@ public class RestaurantCreate
     [Required]
     [StringLength(100)]
     public string Location {get; set;} = string.Empty;
+
 }
