@@ -34,6 +34,9 @@
         }
     </dd>
 </dl>
+
+@await Component.InvokeAsync(nameof(RestaurantRatings), new {restaurantId = Model.Id})
+
 <div>
     <a asp-action="Index">Back to List</a>
     <span>|</span>
